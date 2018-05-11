@@ -22,7 +22,7 @@ public class YahwRs {
     // The Java method will produce content identified by the MIME Media type "text/plain"
     @Produces("text/plain")
     public String sayHelloWorldPlease() {
-        final String yahwMessage = "Hello world!!! from a restful service deployed in wildfy, in docker and eventually, in  virtualbox after a hot swap!!" ;
+        final String yahwMessage = "Hello FANTASTIC world!!! from a restful service deployed in wildfy, in docker and eventually, in  virtualbox after a hot swap!!" ;
         LOGGER.info( yahwMessage );
         return yahwMessage ;
     }
